@@ -1,0 +1,84 @@
+
+*{
+}
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+.decode-text {
+  width: 100%;
+  font-size: 60px;
+  text-align: center;
+}
+
+.space {
+  display: inline-block;
+  width: 10px;
+}
+
+.text-animation {
+  display: inline-block;
+  color: transparent;
+  text-transform: uppercase;
+}
+.text-animation:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #132639;
+  width: 0;
+  height: 1.2em;
+  -webkit-transform: translate(-50%, -55%);
+  -ms-transform: translate(-50%, -55%);
+  transform: translate(-50%, -55%);
+}
+.text-animation.state-1:before {
+  width: 1px;
+}
+.text-animation.state-2:before {
+  width: .9em;
+}
+.text-animation.state-3 {
+  color: white;
+}
+.text-animation.state-3:before {
+  width: 0;
+}
+
+#refresh {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+div {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+body {
+  height: 100vh;
+  /*align-items: center;*/
+  display: flex;
+}
+
+@media (min-width: 1390px) and (max-width: 1570px) {
+  .decode-text{
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1389px){
+  .decode-text{
+    font-size: 25px;
+  }
+}
+@media (max-width: 414px) {
+  .decode-text{
+    font-size: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .decode-text{
+    font-size: 16px;
+  }
+}

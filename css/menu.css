@@ -1,0 +1,60 @@
+
+.up_menu{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+ul li{
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-size: 20px;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-family: 'Cairo', sans-serif;
+
+}
+a{
+  float: left;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: relative;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+
+a:hover:after {
+  width: 100%;
+  left: 0;
+
+}
+@media screen and (max-width: 414px) {
+	ul {
+		margin-top: 40px;
+
+	}
+}
+
+
+
+@media screen and (max-height: 769px) {
+  li a {
+    font-size: 12px;
+    padding: 2px 2px;
+
+
+  }
+}

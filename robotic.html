@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/robotics.css">
+  <link rel="stylesheet" href="css/menu_up.css">
+  <link rel="stylesheet" href="css/preload.css">
+  <link rel="stylesheet" href="css/search.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>Robotics</title>
+</head>
+
+<body>
+
+
+
+
+  <div class="header">
+    <ul style="z-index: 10;top: 0;width: 100%;">
+      <div class="right_menu">
+        <li><a href="index.html">HOME</a></li>
+
+
+      </div>
+      <div class="left_menu">
+        <li style="float:right; padding-right: 500;"><a href="login.php">LOGIN</a></li>
+        <li style="float:right; padding-right: 500;">
+        </li>
+      </div>
+    </ul>
+  </div>
+  <div class="front_wrapper">
+    <h1>Help me to make a smart AI ROVER robot. </h1>
+    <h2>Help</h2>
+  </div>
+  <div class="wrapper">
+    <div class="left_wrapper">
+      <iframe id="video" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      </iframe>
+    </div>
+
+    <div class="right_wrapper">
+      <div class="money">
+        <svg height="10" width="345px">
+          <line x1="0" y1="0" x2="500" style="stroke:#000000;stroke-width:8" />
+        </svg>
+        <h1>All money: ?????????</h1>
+        <h2>Needed money: 5000€</h2>
+      </div>
+      <div class="donators">
+        <h1>Donators: ????</h1>
+        <h2>Thanks for donation!</h2>
+      </div>
+      <div id="progress" class="w3-container">
+        <div class="w3-light-grey">
+          <div class="w3-container w3-blue " style="width:0%;">0%</div>
+        </div><br>
+      </div>
+      <div class="donate">
+        <button class="button">Donate this project</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="informations">
+    <div id="main-menu-container">
+      <svg height="10" width="100%">
+        <line x1="0" y1="0" x2="10000" style="stroke:#000000;stroke-width:8" />
+      </svg>
+      <div id="main-menu">
+        <h1>Hello my dadasd is tibi</h1>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script>
+  if (window.matchMedia("(max-width: 600px)").matches) {
+    $("document").ready(function($) {
+      var nav = $('#main-menu-container');
+
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 600) {
+          nav.addClass("f-nav");
+        } else {
+          nav.removeClass("f-nav");
+        }
+      });
+    });
+  } else {
+    $("document").ready(function($) {
+      var nav = $('#main-menu-container');
+
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 1000) {
+          nav.addClass("f-nav");
+        } else {
+          nav.removeClass("f-nav");
+        }
+      });
+    });
+  }
+</script>
+
+
+</html>
