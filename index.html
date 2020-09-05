@@ -7,12 +7,17 @@
   <link rel="stylesheet" href="../css/menu.css">
   <link rel="stylesheet" href="../css/tipe.css">
   <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/goup_button.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+ 
+ 
+ 
   <title>Cyber Robotics</title>
 </head>
 
@@ -20,11 +25,11 @@
   <!--
   Starting the webpage content
 -->
-
-
+<a id="button"></a>
 
   <div class="main_page">
 
+    
 
 
     <section class="child">
@@ -148,6 +153,28 @@
     document.getElementById("mySidenav").style.width = "0";
   }
   </script>
+
+
+
+<script>
+  var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
+
+
+</script>
 </body>
 
 </html>

@@ -7,11 +7,11 @@
 
 
 
-ul li{
+.up_menu ul li{
   display: inline-block;
 }
 
-li a {
+.up_menu li a {
   color: white;
   font-size: 20px;
   padding: 10px 10px;
@@ -19,10 +19,10 @@ li a {
   font-family: 'Cairo', sans-serif;
 
 }
-a{
+.up_menu a{
   float: left;
 }
-a:after {
+.up_menu a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -36,13 +36,13 @@ a:after {
 }
 
 
-a:hover:after {
+.up_menu a:hover:after {
   width: 100%;
   left: 0;
 
 }
 @media screen and (max-width: 414px) {
-	ul {
+	.up_menu ul {
 		margin-top: 40px;
 
 	}
@@ -51,7 +51,7 @@ a:hover:after {
 
 
 @media screen and (max-height: 769px) {
-  li a {
+  .up_menu li a {
     font-size: 12px;
     padding: 2px 2px;
 
