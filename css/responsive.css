@@ -116,16 +116,13 @@ For the scroling effect
   background-color: black;
   letter-spacing: 3px;
   height:  100vh;
-  padding-top: 150px;
+  padding-top: 80px;
 }
-.block_3 {
-  font-family: 'Cairo', sans-serif;
-  text-align: center;
-  color: white;
-  background-color: black;
-  letter-spacing: 3px;
-  height:  100vh;
-}
+
+
+
+
+
 .image2 img{
   float: right;
   margin-top: 90px;
@@ -138,8 +135,13 @@ For the scroling effect
 }
 .block_2 h3{
   text-align: center;
-  color: blue;
-  
+  font-size: 100px;
+  margin-top:0;
+  margin-bottom: 0;
+  font-weight:initial;
+  font-family: 'Montserrat', sans-serif;
+
+
 }
 
 .block_2 p{
@@ -147,6 +149,15 @@ For the scroling effect
   margin-right: 25px;
 }
 
+
+.block_3 {
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+  letter-spacing: 3px;
+  height:  100vh;
+}
 .sidenav {
   display: none;
 }
@@ -338,10 +349,25 @@ For the scroling effect
     max-width: 800px;
     text-align: center;
   }
+
+  .block_2 h3{
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
   .image2 img {
-    margin-top: 0;
-    width: 120px;
-    height: 120px;
+    display: none;
+  }
+
+
+  .block_3{
+    background-color: black;
+    height: auto;
   }
 }
 
@@ -381,11 +407,15 @@ For the scroling effect
     margin-bottom: 100px;
   }
   .block_2 {
-      margin-top: 25px;
+
+      margin-top: 15px;
       line-height: 1.5;
       height: 100vh;
     }
-
+  .block_3{
+    background-color: black;
+    height: auto;
+  }
 
 
 }
