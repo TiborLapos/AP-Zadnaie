@@ -148,6 +148,36 @@ For the scroling effect
   margin-left: 25px;
   margin-right: 25px;
 }
+.buttons{
+  float: left;
+  margin-left:330px;
+  margin-top:150px;
+}
+.block_2 .button {
+  background-color: inherit;
+  color: white;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Overpass', sans-serif;
+  transition-duration: 0.3s;
+  border-width: 2px;
+  border-color: #cccccc;
+  text-transform: uppercase;
+  margin-right: 100px;
+}
+
+
+.button:hover {
+  background-color: #cccccc; /* Green */
+  border-color: #cccccc;
+  color: Black;
+  font-family: 'Overpass', sans-serif;
+
+}
 
 
 .block_3 {
