@@ -164,11 +164,12 @@ For the scroling effect
   font-size: 20px;
   cursor: pointer;
   font-family: 'Overpass', sans-serif;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   border-width: 2px;
   border-color: #cccccc;
   text-transform: uppercase;
   margin-right: 100px;
+ 
 }
 
 
