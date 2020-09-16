@@ -178,11 +178,13 @@ For the scroling effect
   border-color: #cccccc;
   color: Black;
   font-family: 'Overpass', sans-serif;
-
 }
+
+
 .block_2 .block_button:focus { 
   outline:0 !important;
   border-style: outset;
+ 
  }
 
 
