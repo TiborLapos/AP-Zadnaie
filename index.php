@@ -165,6 +165,8 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
- <a href="../">Naspäť</a>
+ <a href="../">Naspäť </a>
+ <br>
+ <a href="list.php">Používatelia</a>
 </body>
 </html>

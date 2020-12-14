@@ -1,0 +1,1 @@
+# Aplikovana inf zadanie.
